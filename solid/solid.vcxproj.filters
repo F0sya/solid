@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <Filter Include="solid">
+      <UniqueIdentifier>{89b15914-07c6-447c-a388-ffad6afc33c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="S.h">
+      <Filter>solid</Filter>
+    </ClInclude>
+    <ClInclude Include="O.h">
+      <Filter>solid</Filter>
+    </ClInclude>
+    <ClInclude Include="L.h">
+      <Filter>solid</Filter>
+    </ClInclude>
+    <ClInclude Include="I.h">
+      <Filter>solid</Filter>
+    </ClInclude>
+    <ClInclude Include="D.h">
+      <Filter>solid</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h" />
   </ItemGroup>
 </Project>
